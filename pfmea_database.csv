@@ -1,0 +1,41 @@
+Process,Function,Failure Mode,Effect,Severity,Cause,Occurrence,Prevention Control,Detection Control,Detection,RPN
+Drain Plug Installation,Seal housing,Under Torque,"Oil leakage, bearing damage",8,Incorrect torque setting,4,Digital torque tool,Torque traceability,3,96
+Drain Plug Installation,Seal housing,Over Torque,Thread damage,6,Wrong torque program,3,Torque program control,Torque audit,3,54
+Drain Plug Installation,Seal housing,Missing Plug,Complete oil loss,10,Assembly omission,2,Poka Yoke,Visual inspection,2,40
+Drain Plug Installation,Seal housing,Cross Threading,"Leakage, housing damage",7,Improper installation,3,Operator training,Visual inspection,4,84
+Magnetic Plug Installation,Capture metallic particles,Missing Plug,No contamination monitoring,7,Assembly omission,2,Poka Yoke,Visual inspection,3,42
+Magnetic Plug Installation,Capture metallic particles,Under Torque,Oil leakage,8,Torque error,4,Digital torque tool,Torque verification,3,96
+Magnetic Plug Installation,Capture metallic particles,Over Torque,Thread damage,6,Wrong setting,3,Program lock,Audit,3,54
+Magnetic Plug Installation,Capture metallic particles,Damaged Magnet,Reduced particle collection,6,Mishandling,3,Handling standard,Inspection,4,72
+Drive Head Fitment,Support gear train,Improper Seating,"Leakage, noise",8,Misalignment,3,Assembly fixture,Leak test,4,96
+Drive Head Fitment,Support gear train,Wrong Orientation,Assembly failure,9,Operator error,2,Work instruction,Inspection,3,54
+Drive Head Fitment,Support gear train,Damage During Handling,Rework,6,Mishandling,3,Handling fixture,Inspection,4,72
+Drive Head Fitment,Support gear train,Foreign Material,Premature wear,8,Poor cleanliness,3,Cleaning process,Visual inspection,4,96
+Drive Head Bolt Torquing,Provide clamping force,Under Torque,Joint loosening,8,Incorrect torque,4,Torque control,Traceability,3,96
+Drive Head Bolt Torquing,Provide clamping force,Over Torque,Bolt yielding,7,Wrong program,3,Program lock,Audit,3,63
+Drive Head Bolt Torquing,Provide clamping force,Missing Bolt,Joint failure,10,Assembly omission,2,Poka Yoke,Visual inspection,2,40
+Drive Head Bolt Torquing,Provide clamping force,Wrong Sequence,Uneven loading,7,Improper procedure,3,Standard work,Audit,4,84
+Shaft Fitment,Transmit torque,Improper Fitment,"Noise, vibration",8,Misalignment,3,Assembly fixture,Inspection,4,96
+Shaft Fitment,Transmit torque,Wrong Shaft,Assembly mismatch,9,Part mix-up,2,Barcode scan,Verification,2,36
+Shaft Fitment,Transmit torque,Seal Damage,Oil leakage,8,Improper handling,3,Handling standard,Leak test,3,72
+Shaft Bolt Torquing,Secure shaft,Under Torque,Shaft loosening,9,Torque error,4,Torque tool,Traceability,3,108
+Shaft Bolt Torquing,Secure shaft,Over Torque,Bolt failure,8,Wrong setting,3,Program lock,Audit,3,72
+Shaft Bolt Torquing,Secure shaft,Missing Bolt,Shaft separation,10,Assembly omission,2,Poka Yoke,Visual inspection,2,40
+Brake Caliper Fitment,Provide braking force,Misalignment,Uneven braking,9,Incorrect assembly,3,Assembly fixture,Brake test,3,81
+Brake Caliper Fitment,Provide braking force,Wrong Part,Brake malfunction,10,Part mix-up,2,Barcode scan,Part verification,2,40
+Brake Caliper Fitment,Provide braking force,Loose Mounting,Safety risk,10,Torque error,3,Torque control,Inspection,3,90
+Brake Caliper Bolt Torquing,Secure caliper,Under Torque,Caliper movement,10,Incorrect torque,4,Torque tool,Traceability,3,120
+Brake Caliper Bolt Torquing,Secure caliper,Over Torque,Bolt fracture,8,Wrong program,3,Program lock,Audit,3,72
+Brake Caliper Bolt Torquing,Secure caliper,Missing Bolt,Brake failure,10,Assembly omission,2,Poka Yoke,Visual inspection,2,40
+Brake Chamber Installation,Provide brake actuation,Air Leakage,Brake inefficiency,10,Seal damage,3,Leak prevention,Leak test,3,90
+Brake Chamber Installation,Provide brake actuation,Incorrect Position,Reduced braking,9,Misalignment,3,Assembly fixture,Inspection,4,108
+Brake Chamber Installation,Provide brake actuation,Missing Chamber,Brake loss,10,Assembly omission,1,Poka Yoke,Visual inspection,2,20
+Brake Chamber Bolt Torquing,Secure chamber,Under Torque,Chamber movement,9,Torque error,4,Torque control,Traceability,3,108
+Brake Chamber Bolt Torquing,Secure chamber,Over Torque,Thread damage,7,Wrong setting,3,Program lock,Audit,3,63
+Brake Chamber Bolt Torquing,Secure chamber,Missing Bolt,Separation risk,10,Assembly omission,2,Poka Yoke,Visual inspection,2,40
+Pole Wheel Installation,Generate speed signal,Incorrect Orientation,No ABS signal,9,Operator error,3,Work instruction,Sensor test,3,81
+Pole Wheel Installation,Generate speed signal,Missing Pole Wheel,No speed feedback,10,Assembly omission,2,Poka Yoke,Functional test,2,40
+Pole Wheel Installation,Generate speed signal,Damage During Fitment,Signal error,8,Mishandling,3,Handling standard,Inspection,4,96
+Pole Wheel Sensor Bolt Torquing,Secure sensor,Under Torque,Sensor displacement,8,Torque error,4,Torque control,Traceability,3,96
+Pole Wheel Sensor Bolt Torquing,Secure sensor,Over Torque,Sensor damage,7,Wrong setting,3,Program lock,Audit,3,63
+Pole Wheel Sensor Bolt Torquing,Secure sensor,Missing Bolt,Sensor loss,10,Assembly omission,2,Poka Yoke,Visual inspection,2,40
