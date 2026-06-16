@@ -3,6 +3,7 @@ import pandas as pd
 
 pfmea = pd.read_csv("pfmea_database.csv")
 torque = pd.read_csv("torque_data.csv")
+banner = Image.open("images/factory_background.png")
 
 # Page Setup
 st.set_page_config(
