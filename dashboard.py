@@ -2,7 +2,7 @@ import streamlit as st
 import pandas as pd
 
 pfmea = pd.read_csv("pfmea_database.csv")
-torque = pd.read_csv("torque_database.csv")
+torque = pd.read_csv("torque_data.csv")
 
 # Page Setup
 st.set_page_config(
